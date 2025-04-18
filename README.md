@@ -1,4 +1,4 @@
-##HEADER
+# This is my first responsive CSS Grid challenge 
 
-this is my first responsive css grid
+## I implimented it using meda queries 
 

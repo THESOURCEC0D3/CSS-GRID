@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    margin: 250px auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(autofit minmax(550px , 1fr));
+    grid-template-areas:
+     "num1 num2 num3 "
+     "num4 num5 num6 "
+     "num7 num8 num9"
+     "num10 num11 num12"
+    ;
+    /* grid-template-rows: repeat(3 , 1fr); */
+}
+
+.container > h1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 0.5px solid ;
+    border-radius: 10px;
+    margin: 0.5em;
+}
+
+.num1{
+    /* grid-column: 2;
+    grid-row: 2/7 ;
+    z-index: 1; */
+    grid-area: num1;
+}
+
+.num2{
+    /* grid-row: 3/6;
+    grid-column: 1/4;
+    z-index: 2; */
+    grid-area: num2;
+}
+
+.num3{
+    grid-area: num3;
+}
+
+.num4{
+    grid-area: num4;
+}
+
+.num5{
+    grid-area: num5;
+}
+
+.num6{
+    grid-area: num6;
+}
+
+.num7{
+    grid-area: num7;
+}
+
+.num8{
+    grid-area: num8;
+}
+
+.num9{
+    grid-area: num9;
+}
+
+.num10{
+    grid-area: num10;
+}
+
+.num11{
+    grid-area: num11;
+}
+
+.num12{
+    grid-area: num12;
+}
